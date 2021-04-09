@@ -21,7 +21,7 @@ public class Testing{
 
     @BeforeClass
     static void setup() {
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
         driver = new ChromeDriver();
         mainPage = new MainPage(driver);
         addNewComputer = new AddNewComputer(driver);
